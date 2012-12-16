@@ -1,9 +1,15 @@
 =====HOW TO CREATE A SIMPLE APPLICATION=====
 1. Create a new console application (File->New Project->Visual C#->Windows->Console Application)
-2. Add reference to NLapack.dll (right click on References->Add Reference->Browse)
-3. Build the project
-4. Copy blas_win32.*, lapack_win32.* unmanaged libraries to the output binary folder (e.g. Debug or Release)
-5. Paste following code to Program.cs and run the project:
+2. Add reference to NLapack.dll (
+	There are two ways:
+	a. Using NuGet (most useful)
+	If you are familiar with NuGet (if not, reading http://docs.nuget.org/ may be 
+	very useful) you can simply install NLapack package (https://nuget.org/packages/NLapack). 
+	b. Manual
+	1) Right click on References->Add Reference->Browse
+	2) Build the project
+	3) Copy blas_win32.*, lapack_win32.* unmanaged libraries to the output binary folder (e.g. Debug or Release) 
+3. Paste following code to Program.cs and run the project:
 using System;
 using NLapack;
 using NLapack.Matrices;
