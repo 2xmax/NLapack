@@ -1,15 +1,15 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NLapack.Matrices;
+using NUnit.Framework;
 
 namespace NLapack.UnitTests
 {
-    [TestClass]
+    [TestFixture]
     public class JRealMatrixTests
     {
         public const double Epsilon = 1e-5;
 
-        [TestMethod]
+        [Test]
         public void ZeroTest()
         {
             const int maxN = 10;
@@ -31,7 +31,7 @@ namespace NLapack.UnitTests
             }
         }
 
-        [TestMethod]
+        [Test]
         public void InverseTest()
         {
             const int maxN = 10;
@@ -73,7 +73,7 @@ namespace NLapack.UnitTests
         }
 
 
-        [TestMethod]
+        [Test]
         public void MultiplicationTest()
         {
             var matrix = new NRealMatrix(2, 2);
@@ -95,7 +95,7 @@ namespace NLapack.UnitTests
             }
         }
 
-        [TestMethod]
+        [Test]
         public void MultiplicationAndInverseTest()
         {
             var matrix = new NRealMatrix(2, 2);
@@ -124,7 +124,7 @@ namespace NLapack.UnitTests
             }
         }
 
-        [TestMethod]
+        [Test]
         public void MatrixNormTest()
         {
             const int maxN = 10;
@@ -145,7 +145,7 @@ namespace NLapack.UnitTests
             }
         }
 
-        [TestMethod]
+        [Test]
         public void SolveSle()
         {
             const int maxN = 10;

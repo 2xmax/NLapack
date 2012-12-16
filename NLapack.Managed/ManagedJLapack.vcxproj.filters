@@ -77,9 +77,6 @@
     <ClCompile Include="lapack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="dynamic.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="blas.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MLapack", "ManagedJLapack\ManagedJLapack.vcxproj", "{09668143-E094-43D5-A92B-409E040ED5C0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MLapack", "NLapack.Managed\ManagedJLapack.vcxproj", "{09668143-E094-43D5-A92B-409E040ED5C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLapack", "NLapack\NLapack.csproj", "{7E84F31D-643B-483A-950A-03C2B137FB56}"
 EndProject
@@ -20,18 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLapack.UnitTests", "NLapack.UnitTests\NLapack.UnitTests.csproj", "{05A5D42B-F7DF-456A-A826-A955674905E1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC360D20-66CB-4E0F-8FD6-61D6F2181A50}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		NLapack.vsmdi = NLapack.vsmdi
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLapack.Samples", "NLapack.Samples\NLapack.Samples.csproj", "{B965E696-5A32-4D87-86AA-7896F76B9E29}"
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = NLapack.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms

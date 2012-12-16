@@ -16,17 +16,8 @@ NS_FPC_USE;
 //---------------------------------------------------------------------------------------------
 int init()
 {
-	//printf("init");
 //set_fpu<FPU_TRUNC, FPU_DOUBLE> fpu;
 static  unsigned char* names = (unsigned char*)"ESBPNRMULO";
-//printf("init2");
-	/*for (int i = 0;i < 10;i++) {
-		//printf("%d",i);
-		dlamch_(names+i);
-	}*/
-
-
-	
 	return 1;
 };
 /*
