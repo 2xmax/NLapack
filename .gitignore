@@ -4,3 +4,5 @@
 /TestResults
 /*.opensdf
 /*.user
+/NLapack.Managed/Release
+/Release
