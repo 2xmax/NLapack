@@ -41,19 +41,17 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Benchmarks.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\NLapack.Managed\ManagedJLapack.vcxproj">
+      <Project>{09668143-E094-43D5-A92B-409E040ED5C0}</Project>
+      <Name>NLapack.Managed</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NLapack\NLapack.csproj">
       <Project>{7E84F31D-643B-483A-950A-03C2B137FB56}</Project>
       <Name>NLapack</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

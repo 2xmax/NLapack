@@ -4,10 +4,8 @@ using NLapack.Matrices;
 
 namespace NLapack
 {
-
-    public class TestClass
+    public class Benchmarks
     {
-
         public void GetAtSetAtTest()
         {
             var mat = new MCJRMatrix();
