@@ -16,7 +16,7 @@ If you are familiar with NuGet (if not, reading of this [doc](https://nuget.org/
         * Right click on References->Add Reference->Browse, select the NLapack.dll
         * Build the project
         * Copy blas_win32.*, lapack_win32.* unmanaged libraries to the output binary folder (e.g. Debug or Release)
-3. Create a new console application (File->New Project->Visual C#->Windows->Console Application)
+3. Paste the following code to Program.cs
 
 ```csharp
 using System;
