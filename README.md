@@ -10,7 +10,7 @@ How to create a simple application in Visial Studio (2010 or 2012)
 
 1. Create a new console application (File->New Project->Visual C#->Windows->Console Application)
 2. Add reference to NLapack.dll. There are two ways:
-    - Using NuGet (the most easist).<br/>
+    - Using NuGet (the most easiest).<br/>
 If you are familiar with NuGet (if not, reading of this [doc](https://nuget.org/packages/NLapack/1.0.14/Download) may be very useful) you can simply install [NLapack package](https://nuget.org/packages/NLapack).
     - Manually
         * Right click on References->Add Reference->Browse, select the NLapack.dll
